@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+height: 150px;
+width: 150px;
+}
+
+.static{
+position: static;
+background-color: violet;
+left: 200px;
+}
+
+.absolute{
+position: absolute;
+background-color: red;
+left: 50px;
+top: 0%;
+width: 50px;
+height: 50px;
+}
+
+.relative{
+}
+
+.fixed{
+position: fixed;
+background-color: springgreen;
+bottom: 0%;
+}
